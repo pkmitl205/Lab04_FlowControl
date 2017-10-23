@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Lab04
+﻿
+using System;
+public class TryCatch
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-
-        }
+        object o2 = null;
+        int i2 = (int)o2;   // Error
     }
 }
