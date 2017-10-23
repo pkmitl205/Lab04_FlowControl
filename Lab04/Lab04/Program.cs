@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace Lab04
+namespace ConsoleApp2
 {
-    class Program
+    class WhileTest
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
+            int n = 1;
+            while (n < 6)
+            {
+                Console.WriteLine("Current value of n is {0}", n);
+                n++;
+            }
         }
     }
 }
