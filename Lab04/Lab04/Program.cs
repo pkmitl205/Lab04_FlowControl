@@ -1,12 +1,16 @@
 ﻿using System;
-
-namespace Lab04
+using System.IO;
+public class ExceptionLearning
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
+        int a = 10;
+        int b = 20;
+        int c = add(a, b);
+    }
 
-        }
+    private static int add(int a, int b)
+    {
+        throw new NotImplementedException();
     }
 }
