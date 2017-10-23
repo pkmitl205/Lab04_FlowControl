@@ -1,12 +1,18 @@
 ﻿using System;
-
-namespace Lab04
+using System.IO;
+public class IfLearning
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        int a = 2;
+        if (a == 2)
         {
-
+            Console.WriteLine("execute this line");
         }
+        if (a < 2)
+        {
+            Console.WriteLine("execute this line too");
+        }
+        Console.WriteLine("execute next line");
     }
 }
