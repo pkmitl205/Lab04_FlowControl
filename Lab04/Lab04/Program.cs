@@ -1,12 +1,16 @@
-﻿using System;
+﻿
+using System;
 
-namespace Lab04
+namespace ConsoleApp2
 {
-    class Program
+    class ForLoopTest
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
